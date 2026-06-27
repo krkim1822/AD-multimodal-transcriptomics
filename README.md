@@ -17,8 +17,8 @@
   Detailed instructions for installation, dependencies, and required input file formats can be found in the [Pantry](https://github.com/PejLab/Pantry). 
 
 ### Configuration
-The `config.yml` file is used to specify general parameters, reference genomes, input files, and the specific transcriptomic modalities to generate. The default configuration file provided in [Pantry/phenotyping/](https://github.com/PejLab/Pantry/tree/main/phenotyping) must be customized for your own dataset. 
-* Example 
+* The `config.yml` file is used to specify general parameters, reference genomes, input files, and the specific transcriptomic modalities to generate. The default configuration file provided in [Pantry/phenotyping/](https://github.com/PejLab/Pantry/tree/main/phenotyping) must be customized for your own dataset. 
+  * Example 
   ```YAML
   ## Raw RNA seq data
   paired_end: True
@@ -47,8 +47,8 @@ The `config.yml` file is used to specify general parameters, reference genomes, 
   ```
 
 ### Execution
-This pipeline is executed via the Snakemake workflow management system. Activate the environment, and run Snakemake inside the phenotyping directory:
-* Example
+* This pipeline is executed via the Snakemake workflow management system. Activate the environment, and run Snakemake inside the phenotyping directory:
+  * Example
   ```
   cd Pantry/phenotyping
   ### Ensure your configuration file is saved as 'config.yml' in this directory. 
