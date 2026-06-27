@@ -3,3 +3,10 @@
 ### Multimodal Analysis of Transcriptional Regulation in the Dorsolateral Prefrontal Cortex Enhances Alzheimer’s Disease Risk Gene Discovery
 
 ![image](https://github.com/krkim1822/AD-multimodal-transcriptomics/blob/main/Multimodal%20analyses%20framework.png)
+
+# Quantification of multimodal transcriptomic molecular traits from raw RNA-seq data
+### 1. Environment Setup
+* Download [Pantry](https://github.com/PejLab/Pantry) using:
+  ```
+  git clone https://github.com/PejLab/Pantry.git
+  ```
