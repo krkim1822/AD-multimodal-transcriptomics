@@ -49,7 +49,7 @@
 ### Execution
 * This pipeline is executed via the Snakemake workflow management system. Activate the environment, and run Snakemake inside the phenotyping directory:
   * Example
-  ``` bash
+  ``` sh
   cd Pantry/phenotyping
   ### Ensure your configuration file is saved as 'config.yml' in this directory. 
   ### Run Snakemake using the specified parallel cores 
