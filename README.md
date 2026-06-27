@@ -14,7 +14,7 @@
   conda env create -n pantry --file environment.yml
   conda activate pantry
   ```
-Detailed instructions for installation, dependencies, and required input file formats can be found in the [Pantry](https://github.com/PejLab/Pantry). 
+  Detailed instructions for installation, dependencies, and required input file formats can be found in the [Pantry](https://github.com/PejLab/Pantry). 
 
 ### Configuration
 The `config.yml` file is used to specify general parameters, reference genomes, input files, and the specific transcriptomic modalities to generate. The default configuration file provided in [Pantry/phenotyping/](https://github.com/PejLab/Pantry/tree/main/phenotyping) must be customized for your own dataset. 
