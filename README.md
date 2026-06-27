@@ -18,7 +18,7 @@
 
 ### Configuration
 The `config.yml` file is used to specify general parameters, reference genomes, input files, and the specific transcriptomic modalities to generate. The default configuration file provided in [Pantry/phenotyping/](https://github.com/PejLab/Pantry/tree/main/phenotyping) must be customized for your own dataset. 
-* Example config.yml
+* Example 
   ```YAML
   ## Raw RNA seq data
   paired_end: True
